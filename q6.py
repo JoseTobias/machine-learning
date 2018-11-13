@@ -48,8 +48,6 @@ pca.components_                              # componentes principais
 pca.explained_variance_ratio_                # EVR
 pca.explained_variance_
 
-print(pca.components_)
 print(EVR)
-print(v_dec)
 
-print('Y = ' + str(pca.components_[:,0].T) + ' X1' + ' + ' + str(pca.components_[:,1].T) + ' X2 ' + str(pca.components_[:,2].T) + ' X3 ' + ' + ' + str(pca.components_[:,3].T) + ' X4')
+print('Y = ' + str(pca.components_[:,0]) + ' X1' + ' + ' + str(pca.components_[:,1]) + ' X2 ' + str(pca.components_[:,2]) + ' X3 ' + ' + ' + str(pca.components_[:,3]) + ' X4')
